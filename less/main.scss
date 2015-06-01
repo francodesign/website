@@ -1,0 +1,30 @@
+
+@import 'core/normalize';
+@import 'core/mixins';
+@import 'core/constants';
+@import 'core/global';
+@import 'ui/fonts';
+@import 'ui/jquery.fullPage';
+
+@import 'core/motion';
+@import 'core/media-queries';
+
+
+
+@import 'ui/bootstraptheme';
+@import 'sections/intro-box';
+@import 'sections/work-box';
+@import 'ui/owlcarousel';
+@import 'sections/capabilities-box';
+@import 'sections/contact-box';
+
+
+
+/*
+@import 'ui/buttons';
+
+
+
+
+@import 'ui/buttons';
+@import 'sections/*';*/

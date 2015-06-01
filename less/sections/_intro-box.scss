@@ -1,0 +1,19 @@
+
+.intro-box{
+
+	background: radial-gradient(circle, $WHITE_FADED 10%, transparent 10%),
+	radial-gradient(circle, $WHITE_FADED 10%, $GREY 10%) 25px 25px;
+	background-size:50px 50px;
+
+	h1{
+		@include Content;
+	}
+
+	h2{
+		@include Headers;
+	}
+
+
+
+}
+

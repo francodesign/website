@@ -1,0 +1,25 @@
+
+.work-box{
+
+	h2{
+		@include Headers;
+		color: $WHITE;
+	}
+
+	h3{
+		@include Content;
+		color: $WHITE;
+	}
+
+	.container{
+		max-width:940px;
+		margin: 20px auto;
+	}
+	
+	img{
+		max-width: 100%;
+	}
+
+
+}
+

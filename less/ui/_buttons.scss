@@ -1,0 +1,37 @@
+.normal-button {
+  @include Buttons-Normal;
+  @include font-size(12px, 22px);
+  @include transition(all .3s $easeInOutQuad);
+  @include hover;
+  @include hoverBorder;
+  //font-weight: 600;
+  border: solid 1px $WHITE;
+  border-radius: 7px;
+  background: none;
+  color: $WHITE;
+  text-transform: uppercase;
+  padding: 6px 15px 6px 46px;
+  letter-spacing: 2px;
+  width: 150px;
+
+  position: relative;
+
+
+  @include max-screen($MOBILE_WIDTH) {     
+    @include font-size(10px, 16px);     
+    width: 130px;
+    padding: 6px 0px 6px 26px;
+
+     &:before {
+      top:3px;
+    }
+  }
+  
+  &:before {
+    position: absolute;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
